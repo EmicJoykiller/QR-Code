@@ -1,0 +1,44 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(206, 213, 219);
+    font-family: 'outfit';
+    
+}
+
+.outer{
+    width: 320px; 
+    height: 499px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    
+    
+
+}
+h3{
+    font-size: 16px;
+    color: #1f314f;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 16px;
+}
+h4{
+    color: #68778d;
+    margin: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    
+}
+.qrimg{
+    width: 288px;
+    height: 288px;
+    padding: 16px;
+    
+    border-radius: 30px;
+}
+
