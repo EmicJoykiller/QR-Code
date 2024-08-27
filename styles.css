@@ -1,44 +1,61 @@
-body, html {
-    height: 100%;
+*{
+    box-sizing: border-box;
+}
+
+html, body{
     margin: 0;
+    padding: 0;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.site-wraper{
+    width: 100vw;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(206, 213, 219);
-    font-family: 'outfit';
-    
 }
 
-.outer{
-    width: 320px; 
-    height: 499px;
+.card{
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 20px;
+    padding: 1rem 1rem 2.5rem;
+    gap: 1.5rem;
+}
+
+.qr-img {
+    width: 18rem;
+    height: 18rem;
+}
+
+.qr-img > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text{
+    width: 18rem;
     text-align: center;
-    
-    
-
+    display: flex;
+    flex-direction: column;
 }
-h3{
-    font-size: 16px;
-    color: #1f314f;
+
+.text > h1{
+    margin: 0;
     font-weight: 700;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    margin: 16px;
-}
-h4{
-    color: #68778d;
-    margin: 18px;
-    font-size: 16px;
-    font-weight: 400;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-    
-}
-.qrimg{
-    width: 288px;
-    height: 288px;
-    padding: 16px;
-    
-    border-radius: 30px;
+    color: #1F314F;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
+.text > p {
+    
+    color: #68778D;
+    letter-spacing: 0.013rem;
+    text-shadow: 2px 2px 5px #68778D;
+    
+    
+}
